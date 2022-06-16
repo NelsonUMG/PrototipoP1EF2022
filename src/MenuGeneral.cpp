@@ -29,7 +29,8 @@ using std::setprecision;
 using namespace std;
 MenuGeneral::menuGeneral()
 {
-MenuGeneral menuG;
+Persona gesPersona;
+
 int choice;
 	char x;
 	do
@@ -58,9 +59,10 @@ int choice;
     switch(choice)
     {
     case 1:
-        menuEmpleados();
+        gesPersona.menu();
 		break;
 	case 2:
+	    gesPersona.menu2();
 		break;
 	case 3:
         break;
@@ -82,82 +84,4 @@ int choice;
 	}
     }while(choice!= 9);
     return 0;
-}
-MenuGeneral::menuEmpleados()
-{
-    Persona empleado;
-
-    fstream empleadosEntradaSalida = empleado.inicioArchivo();
-    int choice;
-	char x;
-	do
-    {
-	system("cls");
-
-	cout<<"\t\t\t"<<endl;
-	cout<<"\t\t\t    GESTION EMPLEADOS    "<<endl;
-	cout<<"\t\t\t"<<endl;
-	cout<<"\t\t\t 1. Consulta Empleados"<<endl;
-	cout<<"\t\t\t 2. Busqueda de Empleados"<<endl;
-	cout<<"\t\t\t 3. Agregar Empleados"<<endl;
-	cout<<"\t\t\t 4. Modificar Empleados"<<endl;
-	cout<<"\t\t\t 5. Eliminar Empleados"<<endl;
-	cout<<"\t\t\t 6. Imprimir Archivo Empleados"<<endl;
-	cout<<"\t\t\t 7. Regresar"<<endl;
-
-	cout<<"\t\t\t"<<endl;
-	cout<<"\t\t\tOpcion a escoger:[1/2/3/4/5/6/7]"<<endl;
-	cout<<"\t\t\t"<<endl;
-	cout<<"Ingresa una Opcion: ";
-    cin>>choice;
-
-    switch(choice)
-    {
-    case 1:
-        empleado.consultarRegistro(empleadosEntradaSalida);
-        cout << "" << endl;
-        cout << "Presiona enter para continuar" << endl;
-		break;
-	case 2:
-        empleado.busquedaRegistro(empleadosEntradaSalida);
-		break;
-	case 3:
-        empleado.nuevoRegistro(empleadosEntradaSalida);
-        cout << "" << endl;
-        cout<<"Empleado agregado satisfactoriamente"<<endl;
-        cout << "" << endl;
-        cout << "Presiona enter para continuar" << endl;
-		break;
-	case 4:
-
-        empleado.actualizarRegistro(empleadosEntradaSalida);
-        cout << "" << endl;
-        cout<<"Empleado modificado satisfactoriamente"<<endl;
-        cout << "" << endl;
-        cout << "Presiona enter para continuar" << endl;
-		break;
-	case 5:
-
-        empleado.eliminarRegistro(empleadosEntradaSalida);
-        cout << "" << endl;
-        cout<<"Empleado eliminado satisfactoriamente"<<endl;
-        cout << "" << endl;
-        cout << "Presiona enter para continuar" << endl;
-		break;
-    case 6:
-        empleado.imprimirRegistro(empleadosEntradaSalida);
-        cout << "" << endl;
-        cout<<"Informacion impresa satisfactoriamente"<<endl;
-        cout << "" << endl;
-        cout << "Presiona enter para continuar" << endl;
-		break;
-	case 7:
-	        cout<<"Presione Enter para confirmar"<<endl;
-		break;
-	default:
-		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
-	}
-	empleadosEntradaSalida.clear(); // reinicializar indicador de fin de archivo
-    getch();
-    }while(choice!= 7);
 }

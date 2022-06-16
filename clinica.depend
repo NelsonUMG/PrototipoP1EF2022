@@ -3,27 +3,27 @@
 	<iostream>
 	"MenuGeneral.h"
 
-1655411923 c:\users\nelso\desktop\exfinallabclinico\clinica\include\persona.h
+1655416545 c:\users\nelso\desktop\exfinallabclinico\clinica\include\persona.h
 	<iostream>
-	<conio.h>
 	<fstream>
-	<iomanip>
+	<stdlib.h>
 	<cstdlib>
+	<conio.h>
+	<iomanip>
 
 1655410752 c:\users\nelso\desktop\exfinallabclinico\clinica\include\menugeneral.h
 
-1655412282 source:c:\users\nelso\desktop\exfinallabclinico\clinica\src\persona.cpp
+1655416851 source:c:\users\nelso\desktop\exfinallabclinico\clinica\src\persona.cpp
 	"MenuGeneral.h"
 	"Persona.h"
 	<iostream>
-	<conio.h>
-	<cstring>
 	<fstream>
-	<iomanip>
+	<stdlib.h>
 	<cstdlib>
-	<string>
+	<conio.h>
+	<iomanip>
 
-1655412468 source:c:\users\nelso\desktop\exfinallabclinico\clinica\src\menugeneral.cpp
+1655415566 source:c:\users\nelso\desktop\exfinallabclinico\clinica\src\menugeneral.cpp
 	"MenuGeneral.h"
 	<iostream>
 	<conio.h>
@@ -33,4 +33,6 @@
 	<fstream>
 	<iomanip>
 	<cstdlib>
+
+1655415402 source:c:\users\nelso\desktop\exfinallabclinico\clinica\src\paciente.cpp
 
