@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1655410728 source:c:\users\nelso\desktop\exfinallabclinico\clinica\main.cpp
+	<iostream>
+	"MenuGeneral.h"
+
+1655411923 c:\users\nelso\desktop\exfinallabclinico\clinica\include\persona.h
+	<iostream>
+	<conio.h>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
+1655410752 c:\users\nelso\desktop\exfinallabclinico\clinica\include\menugeneral.h
+
+1655412282 source:c:\users\nelso\desktop\exfinallabclinico\clinica\src\persona.cpp
+	"MenuGeneral.h"
+	"Persona.h"
+	<iostream>
+	<conio.h>
+	<cstring>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+	<string>
+
+1655412468 source:c:\users\nelso\desktop\exfinallabclinico\clinica\src\menugeneral.cpp
+	"MenuGeneral.h"
+	<iostream>
+	<conio.h>
+	"Persona.h"
+	<ctime>
+	<vector>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
