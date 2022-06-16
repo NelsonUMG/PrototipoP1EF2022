@@ -7,7 +7,16 @@ class MenuGeneral
     public:
         MenuGeneral();
         virtual ~MenuGeneral();
-
+        menuGeneral();
+        menuEmpleados();
+        menuPacientes();
+        menuPago();
+        menuConsultaEmpleado();
+        menuConsultaPaciente();
+        menuConsultaPago();
+        menuAsignacion();
+        menuTransferencia();
+        int opcion;
     protected:
 
     private:
