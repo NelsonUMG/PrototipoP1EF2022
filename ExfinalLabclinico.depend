@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1655399951 source:c:\users\nelso\desktop\exámen final\prototipop1ef2022\main.cpp
+	<iostream>
+	"MenuGeneral.h"
+
+1655399972 c:\users\nelso\desktop\exámen final\prototipop1ef2022\include\menugeneral.h
+
+1655399951 source:c:\users\nelso\desktop\exámen final\prototipop1ef2022\src\empleados.cpp
+	"Empleados.h"
+
+1655399951 c:\users\nelso\desktop\exámen final\prototipop1ef2022\include\empleados.h
+
+1655399951 source:c:\users\nelso\desktop\exámen final\prototipop1ef2022\src\menugeneral.cpp
+	"MenuGeneral.h"
+	<iostream>
+	<conio.h>
+	<ctime>
+	<vector>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
+1655399951 source:c:\users\nelso\desktop\exfinallabclinico\main.cpp
+	<iostream>
+	"MenuGeneral.h"
+
+1655399972 c:\users\nelso\desktop\exfinallabclinico\include\menugeneral.h
+
+1655399951 source:c:\users\nelso\desktop\exfinallabclinico\src\empleados.cpp
+	"Empleados.h"
+
+1655399951 c:\users\nelso\desktop\exfinallabclinico\include\empleados.h
+
+1655399951 source:c:\users\nelso\desktop\exfinallabclinico\src\menugeneral.cpp
+	"MenuGeneral.h"
+	<iostream>
+	<conio.h>
+	<ctime>
+	<vector>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
